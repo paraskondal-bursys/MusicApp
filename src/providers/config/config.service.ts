@@ -11,7 +11,7 @@ export class ConfigService {
    /**
       *  dev/prod
       */     
-     public readonly ENVIRONMENT:string                   = "prod";     
+     public readonly ENVIRONMENT:string                   = "dev";     
      //  public readonly ENVIRONMENT:string               = "dev";
        
      /**
