@@ -1,0 +1,21 @@
+.welcome-card img {
+  max-height: 35vh;
+  overflow: hidden;
+}
+
+.musicPic{
+  width: 100%;
+  height: 200px;
+  position: relative;
+}
+
+.list-md{
+  padding-bottom: 0px;
+  padding-top: 0px;
+}
+
+.card :hover{
+  transform: scale(1.2);
+  transition: 1s;
+}
+

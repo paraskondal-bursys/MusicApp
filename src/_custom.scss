@@ -1,0 +1,60 @@
+ion-header{
+    height: 100%;
+    width: 14%;
+    background: #2e874e;
+}
+
+.toolbar-background{
+    background: transparent !important;
+}
+
+.ion-page{
+    flex-direction: row;
+}
+
+.globalBack{
+    background: #2e874e;
+    height: auto;
+    width: 100%;
+}
+
+// .scrolling-wrapper {
+//     overflow-x: scroll;
+//     overflow-y: hidden;
+//     white-space: nowrap;
+  
+//     .card {
+//       display: inline-block;
+//       margin-left: 10px; margin-right: 10px;
+//     }
+//   }
+
+  .scrolling-wrapper-flexbox {
+    display: flex;
+    flex-wrap: nowrap;
+    overflow-x: auto;
+    margin-top: 12px;
+    .card {
+      flex: 0 0 auto;
+      display: grid; 
+      margin-left: 10px; margin-right: 10px;
+    }
+  }
+
+  .labelClass{
+     color: white;
+     font-size: 14px;
+     font-family: serif;
+     text-align: center;
+  }
+
+  .titleLabel{
+     color: white;
+     font-size: 32px;
+     font-weight: bold; 
+     font-family: serif;
+  }
+
+  .item-native{
+    background: transparent !important;
+  }

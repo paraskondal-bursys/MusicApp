@@ -1,0 +1,119 @@
+<ion-header>
+  <div style="width:100%;text-align: center;margin-top: 20px;">
+    <img height="70px" src="./assets/img/youtube.png" />
+  </div>
+
+  <div style="width: 100%;display: inline-grid;text-align: center;margin-top: 135px;">
+    <ion-avatar slot="start" style="margin-left: auto;margin-right: auto;width: 35px;height: 35px;">
+      <img src="./assets/img/download.jpeg">
+    </ion-avatar>
+    <i class="fas fa-search" style="color: white; margin-top: 35px;"></i>
+    <i class="far fa-heart" style="color: white;margin-top: 17px;"></i>
+    <i class="fab fa-chromecast" style="color: white;margin-top: 17px;"></i>
+  </div>
+
+  <div style="width:100%;text-align: center;margin-top: 147px;height: 117px;">
+    <img height="70px" src="./assets/img/music.png" />
+    <div style="color: white;font-size:12px;transform: rotate(-90deg) translate(-4px, 0px);">Listen on</div>
+  </div>
+</ion-header>
+
+
+<ion-content>
+  <div class="globalBack">
+    <div style="width: 100%;padding-top: 13px;">
+      <div style="width: 100%;display: grid;padding-left: 10px;">
+        <label class="titleLabel">Top</label>
+        <label class="titleLabel">Creaters</label>
+      </div>
+    </div>
+
+    <div class="scrolling-wrapper-flexbox">
+      <div class="card">
+        <ion-avatar style="width: 60px;height: 60px;">
+          <img src="./assets/img/download.jpeg">
+        </ion-avatar>
+        <label class="labelClass">Sam</label>
+      </div>
+      <div class="card">
+        <ion-avatar style="width: 60px;height: 60px;">
+          <img src="./assets/img/download.jpeg">
+        </ion-avatar>
+        <label class="labelClass">Sam</label>
+      </div>
+      <div class="card">
+        <ion-avatar style="width: 60px;height: 60px;">
+          <img src="./assets/img/download.jpeg">
+        </ion-avatar>
+        <label class="labelClass">Sam</label>
+      </div>
+      <div class="card">
+        <ion-avatar style="width: 60px;height: 60px;">
+          <img src="./assets/img/download.jpeg">
+        </ion-avatar>
+        <label class="labelClass">Sam</label>
+      </div>
+      <div class="card">
+        <ion-avatar style="width: 60px;height: 60px;">
+          <img src="./assets/img/download.jpeg">
+        </ion-avatar>
+        <label class="labelClass">Sam</label>
+      </div>
+      <div class="card">
+        <ion-avatar style="width: 60px;height: 60px;">
+          <img src="./assets/img/download.jpeg">
+        </ion-avatar>
+        <label class="labelClass">Sam</label>
+      </div>
+      <div class="card">
+        <ion-avatar style="width: 60px;height: 60px;">
+          <img src="./assets/img/download.jpeg">
+        </ion-avatar>
+        <label class="labelClass">Sam</label>
+      </div>
+      <div class="card">
+        <ion-avatar style="width: 60px;height: 60px;">
+          <img src="./assets/img/download.jpeg">
+        </ion-avatar>
+        <label class="labelClass">Sam</label>
+      </div>
+    </div>
+
+
+    <div style="width: 100%;padding-top: 0px;">
+      <div style="width: 100%;display: grid;padding-left: 10px;">
+        <label class="titleLabel">Music</label>
+        <label class="titleLabel">Videos</label>
+      </div>
+    </div>
+
+    <div class="musicPic">
+      <img src="./assets/img/song.png" (click)="getData()" style="position: absolute;" width="100%" />
+    </div>
+
+    <div style="background: transparent;display: flex;padding-left: 10px;">
+      <ion-avatar slot="start" style="width: 35px;height: 35px;">
+        <img src="./assets/img/download.jpeg">
+      </ion-avatar>
+      <ion-label style="padding-left: 11px;">
+        <h2 style="color: white;font-family: serif;">Addicted - Enrique Iglasias ft.Cardy B</h2>
+        <p style="color: white;font-family: serif;">Enrique Iglasias * 153M Views * 1 year ago</p>
+      </ion-label>
+    </div>
+
+    <div class="musicPic" style="margin-top: 10px;">
+      <img src="./assets/img/newSong.png" style="position: absolute;" width="100%" />
+    </div>
+
+    <div style="background: transparent;display: flex;padding-left: 10px;">
+      <ion-avatar slot="start" style="width: 35px;height: 35px;">
+        <img src="./assets/img/download.jpeg">
+      </ion-avatar>
+      <ion-label style="padding-left: 11px;">
+        <h2 style="color: white;font-family: serif;">Payphone - Maroon 5 ft.Akon</h2>
+        <p style="color: white;font-family: serif;">Maroon 5 * 200M Views * 2 year ago</p>
+      </ion-label>
+    </div>
+
+  </div>
+</ion-content>
